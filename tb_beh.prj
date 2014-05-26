@@ -1,0 +1,4 @@
+vhdl work "mux2_1.vhd"
+vhdl work "dap.vhd"
+vhdl work "top.vhd"
+vhdl work "tb.vhd"

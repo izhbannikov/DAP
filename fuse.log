@@ -1,0 +1,30 @@
+Running: C:\Xilinx\13.2\ISE_DS\ISE\bin\nt\unwrapped\fuse.exe -intstyle ise -incremental -o C:/ece587/dap/tb_isim_beh.exe -prj C:/ece587/dap/tb_beh.prj work.tb 
+ISim O.61xd (signature 0x6dd86d03)
+Number of CPUs detected in this system: 2
+Turning on mult-threading, number of parallel sub-compilation jobs: 4 
+Determining compilation order of HDL files
+Parsing VHDL file "C:/ece587/dap/mux2_1.vhd" into library work
+Parsing VHDL file "C:/ece587/dap/dap.vhd" into library work
+Parsing VHDL file "C:/ece587/dap/top.vhd" into library work
+Parsing VHDL file "C:/ece587/dap/tb.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 97184 KB
+Fuse CPU Usage: 312 ms
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling package numeric_std
+Compiling package textio
+Compiling package std_logic_textio
+Compiling architecture behavioral of entity mux2_1 [mux2_1_default]
+Compiling architecture behavioral of entity dap [dap_default]
+Compiling architecture behavioral of entity top [top_default]
+Compiling architecture behavior of entity tb
+Time Resolution for simulation is 1ps.
+Waiting for 7 sub-compilation(s) to finish...
+Compiled 14 VHDL Units
+Built simulation executable C:/ece587/dap/tb_isim_beh.exe
+Fuse Memory Usage: 120292 KB
+Fuse CPU Usage: 733 ms
